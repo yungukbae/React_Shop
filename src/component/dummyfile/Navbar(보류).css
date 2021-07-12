@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+}
+
+a{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+}
+
+.menuBar{
+    position: fixed;
+    float: right;
+}
+
+.bar{
+
+    display: inline-block;
+    width: 100vw;
+    height: 64px;
+    background-color: #34495e;
+    text-align: center;
+    box-shadow: 2px 1px 5px;
+}
+
+.bar .logo{
+    display: none
+}
+
+.bar .menu-btn{
+
+    display: none;
+
+}
+
+.bar .menu-logo{
+
+    float: left;
+    margin: 20px 10px;
+    height: 24px;
+    width: 80px;
+    text-align: center;
+    line-height: 24px;
+
+}
+
+.bar .bar-list{
+
+    float: right;
+
+}
+
+.bar .bar-list ul a{
+    border: 0 solid;
+    margin: 20px 10px;
+    height: 24px;
+    width: 80px;
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    line-height: 24px;
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.bar .bar-list ul a:hover{
+    background-color: #fff;
+    color: #34495e;
+}
+
+
+
+
+/* rainbow effect */
+/* .bar .bar-list ul a:hover{
+    background-image:     linear-gradient(
+       to right, 
+       #E7484F,
+       #E7484F 16.65%,
+       #F68B1D 16.65%,
+       #F68B1D 33.3%,
+       #FCED00 33.3%,
+       #FCED00 49.95%,
+       #009E4F 49.95%,
+       #009E4F 66.6%,
+       #00AAC3 66.6%,
+       #00AAC3 83.25%,
+       #732982 83.25%,
+       #732982 100%,
+       #E7484F 100%
+      
+      
+      
+     );
+   animation:slidebg 4s linear infinite;
+ }
+
+ @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  } */
+
+.sideBar-list{
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width: 1024px){
+
+    .bar .bar-list ul a{
+
+        display: none;
+    
+    }
+
+    .bar .logo{
+        display: inline-flex;
+        line-height: 64px;
+        
+    }
+
+    .bar .menu-logo{
+        display: none;
+    
+    }
+
+    .bar .menu-btn{
+    display: inline;
+    float: left;
+    margin: 20px 10px;
+    height: 24px;
+    width: 50px;
+    text-align: center;
+    line-height: 24px;
+    }
+
+    .menuBar .sideBar-hide{
+        position: fixed;
+        z-index: -1;
+        display: block;
+        height: 100vh;
+        width: 25%;
+        background-color: #34495e;
+        box-shadow: 2px 1px 3px;
+        left: -26%;
+    }
+
+    .menuBar .sideBar-show{
+        position: fixed;
+        z-index: -1;
+        display: block;
+        height: 100vh;
+        width: 25%;
+        background-color: #34495e;
+        box-shadow: 2px 1px 3px;
+        left: 0;
+    }
+
+    .menuBar .sideBar-show ul a{
+        text-decoration: none;
+    }
+
+    .menuBar .sideBar-show ul a li{
+
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        background-color: #293a4a;
+        transition: background-color .3s ease-out;
+
+    }
+
+    .menuBar .sideBar-show ul a li:hover{
+        background-color: #34495e;
+        
+    }
+
+
+}
