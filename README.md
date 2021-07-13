@@ -14,4 +14,6 @@ lang:  ![Generic badge](https://img.shields.io/badge/​-javascript-yellow?logo=
 
 lib:  ![Generic badge](https://img.shields.io/badge/​-react-skyblue?logo=react)  ![Generic badge](https://img.shields.io/badge/​-redux-purple?logo=redux)  ![Generic badge](https://img.shields.io/badge/​-materialUI-skyblue?logo=materialui)
 
+db:  ![Generic badge](https://img.shields.io/badge/​-firebase-yellow?logo=firebase)
+
 tool: ![Generic badge](https://img.shields.io/badge/​-VScode-skyblue?logo=visualstudiocode)
