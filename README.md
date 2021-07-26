@@ -1,10 +1,8 @@
 ### React_Shop
 
-React를 활용해 개발한 경매플랫폼 컨셉의 쇼핑몰입니다.
+React를 활용해 개발한 경매플랫폼 컨셉의 쇼핑몰입니다.(개발 진행중)
 
 링크:https://react-redux-yungukplan.web.app/
-
-완성도:50%
 
 반응형: mediaquery를 활용하여 추후 반응형 작업 예정
 
