@@ -6,6 +6,8 @@ React를 활용해 개발한 경매플랫폼 컨셉의 쇼핑몰입니다.
 
 기능: 로그인, 회원가입, 로그아웃, 아이템 리스트, 아이템 상세보기, 카트 추가하기, 카트 리스트
 
+issue: Cart item list 중복표시
+
 lang:  ![Generic badge](https://img.shields.io/badge/​-javascript-yellow?logo=javascript)
 
 lib:  ![Generic badge](https://img.shields.io/badge/​-react-skyblue?logo=react)  ![Generic badge](https://img.shields.io/badge/​-redux-purple?logo=redux)  ![Generic badge](https://img.shields.io/badge/​-materialUI-skyblue?logo=materialui)
